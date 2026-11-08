@@ -1,16 +1,30 @@
-# ciacat_notlog
+# Cia Cat — app mobile
 
-A new Flutter project.
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Dart](https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white) ![Logística](https://img.shields.io/badge/Logística-f18a4b?style=flat-square)
 
-## Getting Started
+App **Flutter** (Android, iOS, web e desktop) do *Cia Cat System*, a primeira ferramenta que criei para automatizar a rotina logística na Cia Cargas. Consome a API do sistema via HTTP.
 
-This project is a starting point for a Flutter application.
+## Telas
 
-A few resources to get you started if this is your first Flutter project:
+| Tela | Função |
+|---|---|
+| Início | Navegação entre os módulos |
+| Consultas | Lista e formulário de consultas (cadastro e acompanhamento) |
+| Carregamento | Registro de carregamentos |
+| Manifesto | Consulta de manifestos |
+| Mensagens | Comunicação da operação |
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Stack
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter · Dart · `http` · `intl`
+
+## Como executar
+
+```bash
+flutter pub get
+flutter run
+```
+
+---
+
+<sub>Desenvolvido por <a href="https://github.com/Yan-Oliv">Yan Monteiro</a> · <a href="https://www.linkedin.com/in/yan-de-oliveira-gon%C3%A7alves-monteiro-a2886619a/">LinkedIn</a> · <a href="https://github.com/OmnyaTech">OmnyaTech</a></sub>
